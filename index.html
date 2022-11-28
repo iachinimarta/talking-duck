@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icon -->
+    <link rel="icon" href="images/icon.png">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:wght@100;200;300&display=swap" rel="stylesheet">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Manifest -->
+    <link rel="manifest" href="site.webmanifest">
+
+    <!-- Title -->
+    <title>Talking Duck</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img class="logo" src="images/Logo white.png" alt="personal-logo">
+        </header>
+            
+        <main class="content">
+            <textarea placeholder="Add text here.."></textarea>
+
+            <div class="controllers">
+                <button>
+                    <img src="images/play.png" alt="play">
+                </button>
+
+                <div class="range-container">
+                    <label for="range">Tonalità</label>
+                    <input type="range" min="0.1" max="2" step="0.1">
+                </div>
+            </div>
+
+            <figure>
+                <img class="img-static" src="images/talking-duck-static.png" alt="img-static">
+                <img class="animated-img" src="images/talking-duck-animated.gif" alt="animated-img">
+            </figure>
+        </main>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
